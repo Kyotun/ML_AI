@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0711.1149                               -->
+<workbook original-version='18.1' source-build='2023.1.4 (20231.23.0711.1149)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='absenteeism_predictions' inline='true' name='federated.1k53cwi0xnugri10xmib61vlvtbr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='absenteeism_predictions' name='textscan.186gfg8130tvyw146u0om0mkq7fd'>
+            <connection class='textscan' directory='C:/Users/emirp/OneDrive/Masaüstü/Data_Science/my_codes/datas' filename='absenteeism_predictions.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.186gfg8130tvyw146u0om0mkq7fd' name='absenteeism_predictions.csv' table='[absenteeism_predictions#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='tr_TR'>
+            <column datatype='integer' name='Reason_1' ordinal='0' />
+            <column datatype='string' name='Reason_2' ordinal='1' />
+            <column datatype='integer' name='Reason_3' ordinal='2' />
+            <column datatype='integer' name='Reason_4' ordinal='3' />
+            <column datatype='integer' name='Month Value' ordinal='4' />
+            <column datatype='integer' name='Transportation Expense' ordinal='5' />
+            <column datatype='integer' name='Age' ordinal='6' />
+            <column datatype='integer' name='Body Mass Index' ordinal='7' />
+            <column datatype='integer' name='Education' ordinal='8' />
+            <column datatype='integer' name='Children' ordinal='9' />
+            <column datatype='integer' name='Pets' ordinal='10' />
+            <column datatype='string' name='Probability' ordinal='11' />
+            <column datatype='integer' name='Prediction' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.186gfg8130tvyw146u0om0mkq7fd' name='absenteeism_predictions.csv' table='[absenteeism_predictions#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='tr_TR'>
+            <column datatype='integer' name='Reason_1' ordinal='0' />
+            <column datatype='string' name='Reason_2' ordinal='1' />
+            <column datatype='integer' name='Reason_3' ordinal='2' />
+            <column datatype='integer' name='Reason_4' ordinal='3' />
+            <column datatype='integer' name='Month Value' ordinal='4' />
+            <column datatype='integer' name='Transportation Expense' ordinal='5' />
+            <column datatype='integer' name='Age' ordinal='6' />
+            <column datatype='integer' name='Body Mass Index' ordinal='7' />
+            <column datatype='integer' name='Education' ordinal='8' />
+            <column datatype='integer' name='Children' ordinal='9' />
+            <column datatype='integer' name='Pets' ordinal='10' />
+            <column datatype='string' name='Probability' ordinal='11' />
+            <column datatype='integer' name='Prediction' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;tr&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₺&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;tr_TR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reason_1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reason_1]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Reason_1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reason_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Reason_2]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Reason_2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reason_3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reason_3]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Reason_3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reason_4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reason_4]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Reason_4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month Value]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Month Value</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transportation Expense</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Transportation Expense]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Transportation Expense</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Body Mass Index</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Body Mass Index]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Body Mass Index</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Children</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Children]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Children</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pets]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Pets</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Probability</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Probability]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Probability</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LTR_RTR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prediction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Prediction]</local-name>
+            <parent-name>[absenteeism_predictions.csv]</parent-name>
+            <remote-alias>Prediction</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Month Value]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='absenteeism_predictions.csv' datatype='table' name='[__tableau_internal_object_id__].[absenteeism_predictions.csv_39820EFDA91644A9A36AB0DA7C824DF1]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Turkey&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Reason_1' />
+        <field-sort-custom-order field='Reason_2' />
+        <field-sort-custom-order field='Calculation_1068479069868982274' />
+        <field-sort-custom-order field='Reason_3' />
+        <field-sort-custom-order field='Reason_4' />
+        <field-sort-custom-order field='Month Value' />
+        <field-sort-custom-order field='Transportation Expense' />
+        <field-sort-custom-order field='Age' />
+        <field-sort-custom-order field='Body Mass Index' />
+        <field-sort-custom-order field='Education' />
+        <field-sort-custom-order field='Children' />
+        <field-sort-custom-order field='Pets' />
+        <field-sort-custom-order field='Probability' />
+        <field-sort-custom-order field='Prediction' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='absenteeism_predictions.csv' id='absenteeism_predictions.csv_39820EFDA91644A9A36AB0DA7C824DF1'>
+            <properties context=''>
+              <relation connection='textscan.186gfg8130tvyw146u0om0mkq7fd' name='absenteeism_predictions.csv' table='[absenteeism_predictions#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='tr_TR'>
+                  <column datatype='integer' name='Reason_1' ordinal='0' />
+                  <column datatype='string' name='Reason_2' ordinal='1' />
+                  <column datatype='integer' name='Reason_3' ordinal='2' />
+                  <column datatype='integer' name='Reason_4' ordinal='3' />
+                  <column datatype='integer' name='Month Value' ordinal='4' />
+                  <column datatype='integer' name='Transportation Expense' ordinal='5' />
+                  <column datatype='integer' name='Age' ordinal='6' />
+                  <column datatype='integer' name='Body Mass Index' ordinal='7' />
+                  <column datatype='integer' name='Education' ordinal='8' />
+                  <column datatype='integer' name='Children' ordinal='9' />
+                  <column datatype='integer' name='Pets' ordinal='10' />
+                  <column datatype='string' name='Probability' ordinal='11' />
+                  <column datatype='integer' name='Prediction' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Age vs Probability'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='absenteeism_predictions' name='federated.1k53cwi0xnugri10xmib61vlvtbr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k53cwi0xnugri10xmib61vlvtbr'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='FLOAT([Probability])' datatype='real' name='[Calculation_1068479069870120966]' role='measure' type='quantitative' user:unnamed='Age vs Probability'>
+              <calculation class='tableau' formula='FLOAT([Probability])' />
+            </column>
+            <column datatype='string' name='[Probability]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1068479069870120966]' derivation='Avg' name='[avg:Calculation_1068479069870120966:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1k53cwi0xnugri10xmib61vlvtbr].[avg:Calculation_1068479069870120966:qk]' field-type='quantitative' max='1.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1k53cwi0xnugri10xmib61vlvtbr].[avg:Calculation_1068479069870120966:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <reference-line axis-column='[federated.1k53cwi0xnugri10xmib61vlvtbr].[none:Age:qk]' enable-instant-analytics='true' fill-above='false' fill-below='false' formula='confidence' id='refline0' label-type='none' paired-distribution-id='refline1' probability='95' scope='per-pane' show-lines='both' symmetric='false' value-column='[federated.1k53cwi0xnugri10xmib61vlvtbr].[none:Age:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1k53cwi0xnugri10xmib61vlvtbr].[none:Age:qk]' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' paired-distribution-id='refline0' probability='95' scope='per-pane' value-column='[federated.1k53cwi0xnugri10xmib61vlvtbr].[none:Age:qk]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.33983424305915833' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1k53cwi0xnugri10xmib61vlvtbr].[avg:Calculation_1068479069870120966:qk]</rows>
+        <cols>[federated.1k53cwi0xnugri10xmib61vlvtbr].[none:Age:qk]</cols>
+      </table>
+      <simple-id uuid='{259F243D-328C-4D2A-990B-15CC5C3123F0}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Age vs Probability'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1k53cwi0xnugri10xmib61vlvtbr].[none:Calculation_1068479069866782720:qk]</field>
+            <field>[federated.1k53cwi0xnugri10xmib61vlvtbr].[none:Calculation_1068479069866835969:qk]</field>
+            <field>[federated.1k53cwi0xnugri10xmib61vlvtbr].[none:Probability:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EECFB11D-52E1-4C58-B6EE-22ED1C753DA6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Age vs Probability' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
